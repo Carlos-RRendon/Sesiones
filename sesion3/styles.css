@@ -7,7 +7,7 @@
 
 
 .item-article{
-      
+    
 }
 
 .item-article h3{
@@ -28,13 +28,6 @@
     display: flex;
 }
 
-.item-article > form div input {
-    height: 30px;
-    border-radius: 5px;
-    border: 1px solid #aaa;
-    padding: 5px;
-}
-
 .item-article > form p {
     color: #025157;
     margin-right: 18px;
@@ -46,22 +39,6 @@
     border-radius: 5px;
     height: 30px;
     border: none;
-}
-
-.container-section-promo{
-display: flex;
-}
-
-
-.container-section-promo-video{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.container-section-promo-video img {
-    width: 120px;
-    margin-top: 10px;
 }
 
 
