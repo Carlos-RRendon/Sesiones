@@ -642,8 +642,76 @@ header a {
     font-size: 700;
 }
 
+.feature-content-four{
+    width: 100%;
+    background-color: var(--main-color);
+    background-image: url(https://getmatcha.com/wp-content/themes/getmatcha/img/gfx/blocks/toolkit.jpg);
+    background-position: 130% 44%;
+    background-size: auto 150%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
+}
 
+.feature-content-four h3{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.feature-content-four a{
+    color: var(--secondary-color);
+    margin-top: 10px;
+}
+
+.feature-content img{
+    height : 50px
+}
+
+.contact{
+    display: flex;
+    padding: 20px;
+}
+
+.contact-container{
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--main-color);
+    color: #fff;
+
+}
+
+.contact-container p{
+    margin-top : 20px
+}
+
+.contact-body h3{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.contact-button a{
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    width: 200px;
+    height: 50px;
+
+}
+
+.contact-button p{
+    font-size: 13px;
+    color: #c8c8c8;
+}
 
 
 
