@@ -748,6 +748,7 @@ header a {
 
 }
 
+
 .footer-section form button{
     margin-top: 35px;
     margin-left: 0;
@@ -756,6 +757,19 @@ header a {
     padding: 15px;
     background-color: var(--main-color);
     color: #fff;
+}
+
+.footer-section form button:hover{
+    
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    transition: 0.3s;
+}
+.footer-section form button:active{
+    
+    border: 1px solid var(--secondary-color);
+    background-color: var(--secondary-color);
+    transition: 0.3s;
 }
 
 .list{
