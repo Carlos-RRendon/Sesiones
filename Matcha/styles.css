@@ -713,6 +713,109 @@ header a {
     color: #c8c8c8;
 }
 
+.footer-container{
+    padding: 20px;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-section form h4{
+    color: var(--main-color);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+
+.footer-section form p{
+    color: var(--text-color);
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.footer-section form input{
+    padding: 15px;
+    border: 1px solid var(--main-color);
+    border-radius: 8px 0 0 8px;
+
+}
+
+.footer-section form button{
+    margin-top: 35px;
+    margin-left: 0;
+    border: 1px solid var(--main-color);
+    border-radius: 0px 8px 8px 0;
+    padding: 15px;
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.list{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+.table-element{
+    margin: 20px;
+}
+
+.table-element > * {
+    margin: 20px;
+}
+
+.table-element h4{
+    color: var(--main-color);
+}
+
+.table-element ul > li{
+    list-style: none;
+    margin: 20px 0;
+}
+.table-element ul > li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    
+}
+
+.table-element ul > li a:hover{
+    font-size: 20px;
+    color: var(--secondary-color);
+    transition: 0.3s;
+    
+}
+
+.footer-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+}
+
+.social-media > *{
+    width : 100px;
+    margin: 0 15px;
+  
+}
+
+.rights p{
+    align-self: flex-end;
+    font-size: 15px;
+}
 
 
 
